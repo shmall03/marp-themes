@@ -33,6 +33,7 @@ section.lead {
   background-color: var(--navy);
   color: var(--white);
   border-top: 8px solid var(--gold);
+  border-bottom: 8px solid var(--gold);
   display: flex;
   flex-direction: column;
   justify-content: center;
