@@ -103,6 +103,7 @@ th {
   color: var(--white);
   font-weight: 700;
   font-family: var(--theme-font);
+  font-size: 16pt;
   border-bottom: 3px solid var(--gold);
 }
 
