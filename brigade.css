@@ -109,6 +109,7 @@ th {
 td {
   color: var(--black);
   font-family: var(--theme-font);
+  font-size: 14;
   border-bottom: 1px solid color-mix(in srgb, var(--navy) 18%, var(--white));
 }
 
