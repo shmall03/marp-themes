@@ -15,6 +15,7 @@
   --white: #ffffff;
   --gold: #fead16;
 
+  --fontStack-sansSerif: "Helvetica", "Helvetica Neue", Arial, sans-serif;
   font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
   background-color: var(--white);
 }
@@ -66,13 +67,16 @@ a {
 }
 
 p {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
   font-size: 20pt;
   font-weight: 600;
   color: var(--black);
 }
 
 ul,
+ol,
 li {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
   color: var(--black);
 }
 
@@ -89,17 +93,20 @@ code {
 table {
   width: 100%;
   border-collapse: collapse;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
 }
 
 th {
   background-color: var(--navy);
   color: var(--white);
   font-weight: 700;
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
   border-bottom: 3px solid var(--gold);
 }
 
 td {
   color: var(--black);
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
   border-bottom: 1px solid color-mix(in srgb, var(--navy) 18%, var(--white));
 }
 
@@ -116,6 +123,7 @@ tr:nth-child(even) td {
 header,
 footer,
 section::after {
+  font-family: "Helvetica", "Helvetica Neue", Arial, sans-serif;
   color: var(--navy);
 }
 
